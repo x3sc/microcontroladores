@@ -1,0 +1,70 @@
+/* src/styles/Sobre.module.css */
+
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+  color: #0f0f0f;
+}
+
+.introduction {
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  margin-top: 100px;
+  color: #ffffff;
+}
+
+.subtitle {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #000000;
+}
+
+.text2 {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+.teamList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  color: #000000;
+}
+
+.member {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.vision,
+.process,
+.mission {
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+.orderedList {
+  padding-left: 20px;
+  color: #ffffff;
+}
+
+.listItem {
+  margin-bottom: 10px;
+  color: #ffffff;
+}

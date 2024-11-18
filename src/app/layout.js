@@ -22,8 +22,8 @@ export default function RootLayout({ children }) {
 
 const bodyStyle = {
   fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
-  backgroundColor: '#fff', // Altera para branco após a transição
-  color: '#000',
+  backgroundColor: '#000', // Iniciar com fundo preto
+  color: '#fff',
   margin: 0,
   padding: 0,
 };
